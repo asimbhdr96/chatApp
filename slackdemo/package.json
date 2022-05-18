@@ -1,0 +1,36 @@
+{
+  "name": "slackdemo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "firebase": "^9.7.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "moment": "^2.29.3",
+    "next": "^12.1.5",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "17",
+    "react-color": "^2.19.3",
+    "react-dom": "17",
+    "react-hook-form": "^7.30.0",
+    "react-redux": "^8.0.1",
+    "react-redux-firebase": "^3.11.0",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
